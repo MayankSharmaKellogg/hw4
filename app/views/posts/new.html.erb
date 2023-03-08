@@ -1,4 +1,4 @@
-<h1>New Post</h1>
+<h1>Record a new post</h1>
 
 <% if @current_user %>
 <%= form_with :model => @post do |form| %>
@@ -27,5 +27,5 @@
   </p>
     <% end %>
 <% else %>
-  You must first <a href="/login">login</a> to post.
+  Please <a href="/login">login</a> to post.
 <% end %>
