@@ -3,7 +3,7 @@ class UsersController < ApplicationController
     @user = User.find_by({ "id" => params["id"] })
   end
   
-  def news
+  def new
     @user = User.new
   end
 
